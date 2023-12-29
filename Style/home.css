@@ -1,0 +1,8 @@
+body {
+    background-color: black;
+    background-image: url(../Images/pexels-felix-mittermeier-956999.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    color: white;
+}

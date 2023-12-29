@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Style/all.min.css" />
+    <link rel="stylesheet" href="Style/bootstrap.min.css" />
+    <link rel="stylesheet" href="Style/index.css" />
+  </head>
+  <body class="d-flex justify-content-center align-items-center">
+    <div class="container d-flex justify-content-center">
+      <div class="text-center py-5 px-3 rounded-3">
+        <div class="twelve">
+          <h1>Log In</h1>
+        </div>
+
+        <div class="image m-3">
+          <img src="Images/user-1699635_640.png" />
+        </div>
+
+        <div class="position-relative">
+          <input
+            type="email"
+            class="form-control my-3"
+            placeholder="Email"
+            id="logE"
+          />
+        </div>
+        <div class="position-relative">
+          <input
+            type="password"
+            class="form-control my-3"
+            placeholder="Password"
+            id="logP"
+          />
+        </div>
+
+        <p id="logM"></p>
+
+        <div class="mb-3 d-flex justify-content-between">
+          <div class="remeber">
+            <input id="remeber" type="checkbox" />
+            <label for="remeber" class="">Remeber me</label>
+          </div>
+
+          <a href="forget.html" class="text-decoration-none text-white"
+            >Forget Password?</a
+          >
+        </div>
+
+        <button onclick="log()" class="btn form-control btn-success">
+          LOG IN
+        </button>
+
+        <p class="mt-1">
+          Don't have an account?
+          <a href="sign.html" class="text-decoration-none text-white"
+            >Sign in</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/index.js"></script>
+  </body>
+</html>
